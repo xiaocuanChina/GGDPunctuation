@@ -48,8 +48,9 @@ app.*.map.json
 .cursor/
 .kiro/
 
-# 本地构建脚本和快捷方式
+# 本地构建脚本和快捷方式（排除 scripts 目录）
 *.bat
+!scripts/*.bat
 *.lnk
 
 # 地图资源文件（所有图片格式）
