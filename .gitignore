@@ -52,5 +52,10 @@ app.*.map.json
 *.bat
 *.lnk
 
-# 地图资源文件（png 格式）
+# 地图资源文件（所有图片格式）
 assets/maps/*.png
+assets/maps/*.jpg
+assets/maps/*.jpeg
+assets/maps/*.gif
+assets/maps/*.bmp
+assets/maps/*.webp
