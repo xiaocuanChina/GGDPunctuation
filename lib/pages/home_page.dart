@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> {
     final prefs = await SharedPreferences.getInstance();
     final Map<String, dynamic> toSave = {};
     _colorConfig.forEach((key, value) {
-      toSave[key.toString()] = value.value;
+      toSave[key.toString()] = value.toARGB32();
     });
     await prefs.setString('color_config', jsonEncode(toSave));
   }
