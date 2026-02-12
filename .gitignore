@@ -61,3 +61,6 @@ assets/maps/*.gif
 assets/maps/*.bmp
 assets/maps/*.webp
 /打包说明.md
+/scripts/scripts.zip
+/scripts/dist/
+/dist/
