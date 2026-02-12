@@ -67,6 +67,20 @@ lib/
     └── label_utils.dart        # 标签工具类
 ```
 
+## PC 端快速替换地图
+
+在 PC 端（Windows）打包后，可以通过替换地图文件快速更换地图，无需重新编译：
+
+1. 找到打包文件所在目录（例如：`build/windows/x64/runner/Release/`）
+2. 进入 `data\flutter_assets\assets\maps\` 目录
+3. 将新的地图图片文件放入该目录，文件名需与代码中引用的名称一致
+4. 重启应用即可看到新地图
+
+**注意事项：**
+- 地图文件格式支持：PNG、JPG、JPEG
+- 建议地图分辨率：1920x1080 或更高
+- 文件命名规范请参考 `assets/maps/README.md`
+
 ## 技术栈
 
 - Flutter 3.x
